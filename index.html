@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link href="style.css" rel="stylesheet"> 
+    <link href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=My+Soul&display=swap" rel="stylesheet">
+    <title>SlideJquery</title>
+</head>
+<body> 
+    <div class="slide_many"> 
+         
+        <div class="logo"> 
+            <p><i class="fa-brands fa-hubspot"></i> </p>
+            <span class="logo_name">Eleven</span>
+        </div> 
+
+      <ul>  
+
+        <li class="nav_list_1"> 
+            <i class="fa-solid fa-futbol"></i> 
+            <span class="list_name">Football</span>  
+
+                <div class="nav_list_toggle">  
+                  <a href="#">
+                      <i class="fa-solid fa-angle-right"></i>
+                      <span class="name_toggle">Spain</span> 
+                  </a>
+                </div> 
+                <div class="nav_list_toggle_2">  
+                    <a href="#">
+                        <i class="fa-solid fa-angle-right"></i>
+                        <span class="name_toggle">France</span> 
+                    </a>
+                  </div> 
+                <div class="nav_list_toggle_3">  
+                    <a href="#">
+                        <i class="fa-solid fa-angle-right"></i>
+                        <span class="name_toggle">Italy</span> 
+                    </a>
+                 </div>
+        </li>  
+         
+        <li class="nav_list_2"> 
+            <i class="fa-solid fa-basketball"></i>
+            <span class="list_name">Basketball</span>  
+
+                <div class="nav_list_toggle">  
+                   <a href="#">
+                      <i class="fa-solid fa-angle-right"></i>
+                      <span class="name_toggle">U S A</span> 
+                    </a>
+              </div> 
+        </li> 
+
+        <li class="nav_list_3"> 
+            <i class="fa-solid fa-person-skiing"></i>
+            <span class="list_name">Skiing</span> 
+             
+             <div class="nav_list_toggle">  
+                <a href="#">
+                    <i class="fa-solid fa-xmark"></i>
+                   <span class="name_toggle">Empty</span> 
+                 </a>
+           </div> 
+        </li> 
+
+        <li class="nav_list_4"> 
+            <i class="fa-solid fa-hockey-puck"></i>
+            <span class="list_name">Hockey</span>  
+
+            <div class="nav_list_toggle">  
+                <a href="#">
+                    <i class="fa-solid fa-xmark"></i>
+                    <span class="name_toggle">Empty</span> 
+               </a>
+         </div> 
+        </li> 
+
+        <li class="nav_list_5"> 
+            <i class="fa-solid fa-volleyball"></i>
+            <span class="list_name">Voleyball</span> 
+             
+               <div class="nav_list_toggle">  
+                  <a href="#">
+                     <i class="fa-solid fa-angle-right"></i>
+                     <span class="name_toggle">Serbia</span> 
+                 </a>
+           </div> 
+        </li>  
+
+        <li class="nav_list_6"> 
+            <i class="fa-solid fa-person-swimming"></i>
+            <span class="list_name">Swimming</span> 
+             
+            <div class="nav_list_toggle">  
+                <a href="#">
+                   <i class="fa-solid fa-angle-right"></i>
+                   <span class="name_toggle">Greece</span> 
+               </a>
+         </div>  
+         <div class="nav_list_toggle_2">  
+            <a href="#">
+               <i class="fa-solid fa-angle-right"></i>
+               <span class="name_toggle">Portugal</span> 
+           </a>
+     </div> 
+
+        </li>
+
+     </ul>
+
+    </div>
+      
+     <script> 
+            let li = document.querySelector(".nav_list_1");  
+            let li_2 = document.querySelector(".nav_list_2"); 
+            let li_3 = document.querySelector(".nav_list_3");  
+            let li_4 = document.querySelector(".nav_list_4"); 
+            let li_5= document.querySelector(".nav_list_5");  
+            let li_6 = document.querySelector(".nav_list_6");
+
+              
+            li.onclick = function() { 
+              li.classList.toggle("active");
+            } 
+           li_2.onclick = function() { 
+               li_2.classList.toggle("active")
+           } 
+           li_3.onclick = function() { 
+               li_3.classList.toggle("active");
+           } 
+           li_4.onclick = function() { 
+               li_4.classList.toggle("active");
+           } 
+           li_5.onclick = function() { 
+               li_5.classList.toggle("active");
+           } 
+           li_6.onclick = function() { 
+               li_6.classList.toggle("active");
+           }
+    </script>
+
+</body>
+</html>

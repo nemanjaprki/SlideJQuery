@@ -1,0 +1,524 @@
+*{  
+    margin: 0;  
+    padding: 0; 
+    font-family: 'Rubik', sans-serif;
+}   
+body { 
+    background: rgb(65, 55, 65);
+}
+.slide_many {  
+    width: 220px; 
+    height: 800px; 
+    background-color: rgb(84, 67, 82);   
+    border-right: 3px solid rgb(150, 189, 146);;
+}  
+.slide_many .logo {    
+    width: 100%;   
+    padding-top: 30px;
+} 
+.slide_many .logo p {  
+    font-size: 36px; 
+    color: rgb(150, 189, 146);
+    text-align: center;
+} 
+.slide_many .logo .logo_name {  
+    font-family: 'My Soul', cursive;
+    font-size: 28px; 
+    color: rgba(200, 212, 231, 0.852); 
+    margin-left: 70px;
+} 
+.slide_many ul { 
+margin: 100px 0 0 0; 
+}   
+          /* nav_list_1 */ 
+
+.slide_many ul .nav_list_1 {  
+    position: relative;
+    list-style: none;  
+    height: 70px;  
+    line-height: 70px; 
+    padding: 0 30px;
+    cursor: pointer;
+}    
+.slide_many ul .nav_list_1.active { 
+    height: 160px; 
+    background-color: rgb(84, 67, 82);  
+    transition: all 0.5s ease;
+} 
+.slide_many ul .nav_list_1 i {  
+    font-size: 24px;
+    min-width: 50px; 
+    height: 30px;  
+    color: rgb(150, 189, 146);
+    text-align: center;
+} 
+.slide_many ul .nav_list_1 .list_name { 
+    color: rgb(255, 255, 255); 
+    font-size: 20px;
+}  
+.slide_many ul .nav_list_1 .list_name:hover { 
+    color: rgb(195, 211, 198);
+}
+.slide_many ul .nav_list_1 .nav_list_toggle {    
+    position: absolute;  
+    opacity: 0;
+    top: 60px;
+    left: 30px; 
+    display: flex; 
+    padding: 0 40px;
+    cursor: auto; 
+    transition: all 0.1s ease;
+}   
+
+.slide_many ul .nav_list_1.active .nav_list_toggle { 
+    opacity: 1;
+}
+.slide_many ul .nav_list_1 .nav_list_toggle a { 
+    height: 40px;  
+    line-height: 40px; 
+    flex-direction: row;
+    text-decoration: none;  
+    white-space: nowrap; 
+    text-align: center;
+} 
+.slide_many ul .nav_list_1 .nav_list_toggle i { 
+    font-size: 15px;
+    color: rgb(195, 211, 198);   
+    min-width: 30px;
+
+}  
+.slide_many ul .nav_list_1 .nav_list_toggle .name_toggle { 
+    color: rgb(150, 189, 146); 
+    font-size: 16px;  
+} 
+.slide_many ul .nav_list_1 .nav_list_toggle .name_toggle:hover { 
+    color: rgb(195, 211, 198);
+}  
+ 
+
+.slide_many ul .nav_list_1 .nav_list_toggle_2 {    
+    position: absolute;  
+    opacity: 0;
+    top: 90px;
+    left: 30px; 
+    display: flex; 
+    padding: 0 40px;
+    cursor: auto; 
+    transition: all 0.1s ease;
+}   
+
+.slide_many ul .nav_list_1.active .nav_list_toggle_2 { 
+    opacity: 1;
+}
+.slide_many ul .nav_list_1 .nav_list_toggle_2 a { 
+    height: 40px;  
+    line-height: 40px; 
+    flex-direction: row;
+    text-decoration: none;  
+    white-space: nowrap; 
+    text-align: center;
+} 
+.slide_many ul .nav_list_1 .nav_list_toggle_2 i { 
+    font-size: 15px;
+    color: rgb(195, 211, 198);   
+    min-width: 30px;
+
+}  
+.slide_many ul .nav_list_1 .nav_list_toggle_2 .name_toggle { 
+    color: rgb(150, 189, 146); 
+    font-size: 16px;  
+} 
+.slide_many ul .nav_list_1 .nav_list_toggle_2 .name_toggle:hover { 
+    color: rgb(195, 211, 198);
+} 
+ 
+.slide_many ul .nav_list_1 .nav_list_toggle_3 {    
+    position: absolute;  
+    opacity: 0;
+    top: 120px;
+    left: 30px; 
+    display: flex; 
+    padding: 0 40px;
+    cursor: auto; 
+    transition: all 0.1s ease;
+}   
+
+.slide_many ul .nav_list_1.active .nav_list_toggle_3 { 
+    opacity: 1;
+}
+.slide_many ul .nav_list_1 .nav_list_toggle_3 a { 
+    height: 40px;  
+    line-height: 40px; 
+    flex-direction: row;
+    text-decoration: none;  
+    white-space: nowrap; 
+    text-align: center;
+} 
+.slide_many ul .nav_list_1 .nav_list_toggle_3 i { 
+    font-size: 15px;
+    color: rgb(195, 211, 198);   
+    min-width: 30px;
+
+}  
+.slide_many ul .nav_list_1 .nav_list_toggle_3 .name_toggle { 
+    color: rgb(150, 189, 146); 
+    font-size: 16px;  
+} 
+.slide_many ul .nav_list_1 .nav_list_toggle_3 .name_toggle:hover { 
+    color: rgb(195, 211, 198);
+}  
+                  /* nav_list_2 */ 
+
+.slide_many ul .nav_list_2 {  
+    position: relative;
+    list-style: none;  
+    height: 70px;  
+    line-height: 70px; 
+    padding: 0 30px;
+    cursor: pointer;
+}   
+.slide_many ul .nav_list_2.active { 
+    height: 110px; 
+    background-color: rgb(84, 67, 82);  
+    transition: all 0.5s ease;
+} 
+.slide_many ul .nav_list_2 i {  
+    font-size: 24px;
+    min-width: 50px; 
+    height: 30px;  
+    color: rgb(150, 189, 146);
+    text-align: center;
+} 
+.slide_many ul .nav_list_2 .list_name { 
+    color: rgb(255, 255, 255); 
+    font-size: 20px;
+}  
+.slide_many ul .nav_list_2 .list_name:hover { 
+    color: rgb(195, 211, 198);
+}
+.slide_many ul .nav_list_2 .nav_list_toggle {    
+    position: absolute;  
+    opacity: 0;
+    top: 60px;
+    left: 30px; 
+    display: flex; 
+    padding: 0 40px;
+    cursor: auto; 
+    transition: all 0.1s ease;
+}   
+
+.slide_many ul .nav_list_2.active .nav_list_toggle { 
+    opacity: 1;
+}
+.slide_many ul .nav_list_2 .nav_list_toggle a { 
+    height: 40px;  
+    line-height: 40px; 
+    flex-direction: row;
+    text-decoration: none;  
+    white-space: nowrap; 
+    text-align: center;
+} 
+.slide_many ul .nav_list_2 .nav_list_toggle i { 
+    font-size: 15px;
+    color: rgb(195, 211, 198);   
+    min-width: 30px;
+
+}  
+.slide_many ul .nav_list_2 .nav_list_toggle .name_toggle { 
+    color: rgb(150, 189, 146); 
+    font-size: 16px;  
+} 
+.slide_many ul .nav_list_2 .nav_list_toggle .name_toggle:hover { 
+    color: rgb(195, 211, 198);
+}  
+                       /* nav_list_3 */ 
+
+.slide_many ul .nav_list_3 {  
+    position: relative;
+    list-style: none;  
+    height: 70px;  
+    line-height: 70px; 
+    padding: 0 30px;
+    cursor: pointer;
+}    
+.slide_many ul .nav_list_3.active { 
+    height: 110px; 
+    background-color: rgb(84, 67, 82);  
+    transition: all 0.5s ease;
+} 
+.slide_many ul .nav_list_3 i {  
+    font-size: 24px;
+    min-width: 50px; 
+    height: 30px;  
+    color: rgb(150, 189, 146);
+    text-align: center;
+} 
+.slide_many ul .nav_list_3 .list_name { 
+    color: rgb(255, 255, 255); 
+    font-size: 20px;
+}   
+.slide_many ul .nav_list_3 .list_name:hover { 
+    color: rgb(195, 211, 198);
+}
+.slide_many ul .nav_list_3 .nav_list_toggle {    
+    position: absolute;  
+    opacity: 0;
+    top: 60px;
+    left: 30px; 
+    display: flex; 
+    padding: 0 40px;
+    cursor: e-resize; 
+    transition: all 0.1s ease;
+}   
+
+.slide_many ul .nav_list_3.active .nav_list_toggle { 
+    opacity: 1;
+}
+.slide_many ul .nav_list_3 .nav_list_toggle a { 
+    height: 40px;  
+    line-height: 40px; 
+    flex-direction: row;
+    text-decoration: none;  
+    white-space: nowrap; 
+    text-align: center;
+} 
+.slide_many ul .nav_list_3 .nav_list_toggle i { 
+    font-size: 15px;
+    color: rgb(185, 86, 84); 
+    min-width: 30px;
+
+}  
+.slide_many ul .nav_list_3 .nav_list_toggle .name_toggle { 
+    color: rgb(185, 86, 84); 
+    font-size: 16px;  
+} 
+.slide_many ul .nav_list_3 .nav_list_toggle .name_toggle:hover { 
+    color: rgb(175, 95, 94);
+}  
+             /* nav_list_4 */   
+
+.slide_many ul .nav_list_4 {  
+    position: relative;
+    list-style: none;  
+    height: 70px;  
+    line-height: 70px; 
+    padding: 0 30px;
+    cursor: pointer;
+}    
+.slide_many ul .nav_list_4.active { 
+    height: 110px; 
+    background-color: rgb(84, 67, 82);  
+    transition: all 0.5s ease;
+} 
+.slide_many ul .nav_list_4 i {  
+    font-size: 24px;
+    min-width: 50px; 
+    height: 30px;  
+    color: rgb(150, 189, 146);
+    text-align: center;
+} 
+.slide_many ul .nav_list_4 .list_name { 
+    color: rgb(255, 255, 255); 
+    font-size: 20px;
+}     
+.slide_many ul .nav_list_4 .list_name:hover { 
+    color: rgb(195, 211, 198);
+}
+.slide_many ul .nav_list_4 .nav_list_toggle {    
+    position: absolute;  
+    opacity: 0;
+    top: 60px;
+    left: 30px; 
+    display: flex; 
+    padding: 0 40px;
+    cursor: auto; 
+    transition: all 0.1s ease;
+}   
+
+.slide_many ul .nav_list_4.active .nav_list_toggle { 
+    opacity: 1;
+}
+.slide_many ul .nav_list_4 .nav_list_toggle a { 
+    height: 40px;  
+    line-height: 40px; 
+    flex-direction: row;
+    text-decoration: none;  
+    white-space: nowrap; 
+    text-align: center;
+} 
+.slide_many ul .nav_list_4 .nav_list_toggle i { 
+    font-size: 15px;
+    color: rgb(185, 86, 84);   
+    min-width: 30px;
+
+}  
+.slide_many ul .nav_list_4 .nav_list_toggle .name_toggle { 
+    color: rgb(185, 86, 84);   
+    font-size: 16px;  
+} 
+.slide_many ul .nav_list_4 .nav_list_toggle .name_toggle:hover { 
+    color: rgb(175, 95, 94);
+}  
+              /* nav-list_5 */ 
+
+.slide_many ul .nav_list_5 {  
+    position: relative;
+    list-style: none;  
+    height: 70px;  
+    line-height: 70px; 
+    padding: 0 30px;
+    cursor: pointer;
+}    
+.slide_many ul .nav_list_5.active { 
+    height: 110px; 
+    background-color: rgb(84, 67, 82);  
+    transition: all 0.5s ease;
+} 
+.slide_many ul .nav_list_5 i {  
+    font-size: 24px;
+    min-width: 50px; 
+    height: 30px;  
+    color: rgb(150, 189, 146);
+    text-align: center;
+} 
+.slide_many ul .nav_list_5 .list_name { 
+    color: rgb(255, 255, 255); 
+    font-size: 20px;
+}    
+.slide_many ul .nav_list_5 .list_name:hover { 
+    color: rgb(195, 211, 198);
+}
+.slide_many ul .nav_list_5 .nav_list_toggle {    
+    position: absolute;  
+    opacity: 0;
+    top: 60px;
+    left: 30px; 
+    display: flex; 
+    padding: 0 40px;
+    cursor: auto; 
+    transition: all 0.1s ease;
+}   
+
+.slide_many ul .nav_list_5.active .nav_list_toggle { 
+    opacity: 1;
+}
+.slide_many ul .nav_list_5 .nav_list_toggle a { 
+    height: 40px;  
+    line-height: 40px; 
+    flex-direction: row;
+    text-decoration: none;  
+    white-space: nowrap; 
+    text-align: center;
+} 
+.slide_many ul .nav_list_5 .nav_list_toggle i { 
+    font-size: 15px;
+    color: rgb(195, 211, 198);   
+    min-width: 30px;
+
+}  
+.slide_many ul .nav_list_5 .nav_list_toggle .name_toggle { 
+    color: rgb(150, 189, 146); 
+    font-size: 16px;  
+} 
+.slide_many ul .nav_list_5 .nav_list_toggle .name_toggle:hover { 
+    color: rgb(195, 211, 198);
+}  
+           /* nav-list_6 */  
+
+.slide_many ul .nav_list_6 {  
+    position: relative;
+    list-style: none;  
+    height: 70px;  
+    line-height: 70px; 
+    padding: 0 30px;
+    cursor: pointer;
+}    
+.slide_many ul .nav_list_6.active { 
+    height: 150px; 
+    background-color: rgb(84, 67, 82);  
+    transition: all 0.5s ease;
+} 
+.slide_many ul .nav_list_6 i {  
+    font-size: 24px;
+    min-width: 50px; 
+    height: 30px;  
+    color: rgb(150, 189, 146);
+    text-align: center;
+} 
+.slide_many ul .nav_list_6 .list_name { 
+    color: rgb(255, 255, 255); 
+    font-size: 20px;
+}   
+.slide_many ul .nav_list_6 .list_name:hover { 
+    color: rgb(195, 211, 198);
+}
+.slide_many ul .nav_list_6 .nav_list_toggle {    
+    position: absolute;  
+    opacity: 0;
+    top: 60px;
+    left: 30px; 
+    display: flex; 
+    padding: 0 40px;
+    cursor: auto; 
+    transition: all 0.1s ease;
+}   
+
+.slide_many ul .nav_list_6.active .nav_list_toggle { 
+    opacity: 1;
+}
+.slide_many ul .nav_list_6 .nav_list_toggle a { 
+    height: 40px;  
+    line-height: 40px; 
+    flex-direction: row;
+    text-decoration: none;  
+    white-space: nowrap; 
+    text-align: center;
+} 
+.slide_many ul .nav_list_6 .nav_list_toggle i { 
+    font-size: 15px;
+    color: rgb(195, 211, 198);   
+    min-width: 30px;
+
+}  
+.slide_many ul .nav_list_6 .nav_list_toggle .name_toggle { 
+    color: rgb(150, 189, 146); 
+    font-size: 16px;  
+} 
+.slide_many ul .nav_list_6 .nav_list_toggle .name_toggle:hover { 
+    color: rgb(195, 211, 198);
+}   
+.slide_many ul .nav_list_6 .nav_list_toggle_2 {    
+    position: absolute;  
+    opacity: 0;
+    top: 90px;
+    left: 30px; 
+    display: flex; 
+    padding: 0 40px;
+    cursor: auto; 
+    transition: all 0.1s ease;
+}   
+
+.slide_many ul .nav_list_6.active .nav_list_toggle_2 { 
+    opacity: 1;
+}
+.slide_many ul .nav_list_6 .nav_list_toggle_2 a { 
+    height: 40px;  
+    line-height: 40px; 
+    flex-direction: row;
+    text-decoration: none;  
+    white-space: nowrap; 
+    text-align: center;
+} 
+.slide_many ul .nav_list_6 .nav_list_toggle_2 i { 
+    font-size: 15px;
+    color: rgb(195, 211, 198);   
+    min-width: 30px;
+
+}  
+.slide_many ul .nav_list_6 .nav_list_toggle_2 .name_toggle { 
+    color: rgb(150, 189, 146); 
+    font-size: 16px;  
+} 
+.slide_many ul .nav_list_6 .nav_list_toggle_2 .name_toggle:hover { 
+    color: rgb(195, 211, 198);
+}  
